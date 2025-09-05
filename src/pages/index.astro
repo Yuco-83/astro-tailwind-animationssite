@@ -59,9 +59,9 @@ import konc15 from "../assets/images/konc15.jpg";
 					<table class="table-auto">
 						<thead>
 							<tr>
-								<th class="px-4 py-2 .vibrate-1">Dato</th>
-								<th class="px-4 py-2 .vibrate-1">Sted</th>
-								<th class="px-4 py-2 .vibrate-1">Billetter</th>
+								<th class="px-4 py-2">Dato</th>
+								<th class="px-4 py-2">Sted</th>
+								<th class="px-4 py-2">Billetter</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -99,11 +99,11 @@ import konc15 from "../assets/images/konc15.jpg";
 
 		<section class="container max-w-xl mx-auto p-4 mt-20">
 			<Heading htmlheading="h2" size="medium" font="display">Om os</Heading>
-			<Text stylingclasses="max-w-2xl">Livløs er et synthwave band fra København, der spiller prætentiøs synthwave. Vi har spillet sammen siden 2020 og har udgivet to albums og en EP. Vi spiller live i hele Danmark og har en stor fanskare.</Text>
-			<Text stylingclasses="max-w-2xl">Vi elsker at spille live og møde vores fans. Vi håber at se dig til vores næste koncert!</Text>
+			<Text stylingclasses="max-w-2xl opacity-0 intersect:opacity-100 transition-opacity duration-2000">Livløs er et synthwave band fra København, der spiller prætentiøs synthwave. Vi har spillet sammen siden 2020 og har udgivet to albums og en EP. Vi spiller live i hele Danmark og har en stor fanskare.</Text>
+			<Text stylingclasses="max-w-2xl opacity-0 intersect:opacity-100 transition-opacity duration-2000">Vi elsker at spille live og møde vores fans. Vi håber at se dig til vores næste koncert!</Text>
 		</section>
 
-		<section class="container mx-auto p-4 mt-20">
+		<section class="container mx-auto p-4 mt-20 opacity-0 intersect:opacity-100 transition duration-[5000ms]">
 			<div class="md:columns-3">
 				<Image src={konc1} alt="Konc1" class="w-full h-auto mb-4 hover:scale-110 transition duration-500 hover:translate-x-6" />
 				<Image src={konc2} alt="Konc2" class="w-full h-auto mb-4" />
